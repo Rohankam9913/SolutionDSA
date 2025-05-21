@@ -1,3 +1,9 @@
+// Problem Link: https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/description/
+
+// Approach: Binary Search on Answer
+// Time Complexity: O(n * log(n))
+// Space Complexity: O(1)
+
 class Solution {
 public:
   int getCount(int mid, vector<int>&bloomDay, int k) {
